@@ -21,10 +21,10 @@ Shortest Job First Algorithm:
 | Process Name | Time to process | Job Submission time | Completion Time | Turnaround Time | Waiting Time | Response Time |
 |--------------|----------------|---------------------|----------------|----------------|--------------|---------------|
 | p1           | 7              | 3                   | 10             | 7              | 0            | 0             |
-| p4           | 12             | 16                  | 28             | 12             | 0            | 0             |
-| p3           | 16             | 34                  | 50             | 16             | 0            | 0             |
-| p2           | 18             | 23                  | 68             | 45             | 27           | 0             |
-| p5           | 19             | 7                   | 87             | 80             | 61           | 0             |
+| p2           | 18             | 23                  | 75             | 52             | 34           | 34            |
+| p3           | 16             | 34                  | 57             | 23             | 7            | 7             |
+| p4           | 12             | 16                  | 41             | 25             | 13           | 13            |
+| p5           | 19             | 7                   | 29             | 22             | 3            | 3             |
 
 Longest Job First Algorithm:
 | Process Name | Time to process | Job Submission time | Completion Time | Turnaround Time | Wait Time | Response Time |
