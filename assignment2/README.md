@@ -12,10 +12,10 @@ Round Robin Algorithm:  TQ = 10
 | Process Name | Time to process | Job Submission time | Completion Time | Turnaround Time | Waiting Time | Response Time |
 |--------------|----------------|---------------------|----------------|----------------|--------------|---------------|
 | p1           | 7              | 3                   | 10             | 7              | 0            | 0             |
-| p2           | 18             | 23                  | 69             | 46             | 28           | 28             |
-| p3           | 16             | 34                  | 75             | 41             | 25           | 25            |
-| p4           | 12             | 16                  | 52             | 36             | 24           | 24             |
-| p5           | 19             | 7                   | 39             | 32             | 13           | 13             |
+| p2           | 18             | 23                  | 69             | 46             | 28           | 16             |
+| p3           | 16             | 34                  | 75             | 41             | 25           | 17            |
+| p4           | 12             | 16                  | 52             | 36             | 24           | 4             |
+| p5           | 19             | 7                   | 39             | 32             | 13           | 3             |
 
 Shortest Job First Algorithm:
 | Process Name | Time to process | Job Submission time | Completion Time | Turnaround Time | Waiting Time | Response Time |
