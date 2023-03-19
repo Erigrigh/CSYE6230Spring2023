@@ -2,11 +2,11 @@
 First Come First Serve (FCFS) Algorithm:
 | Process Name | Time to process | Job Submission time | Completion Time | Turnaround Time | Waiting Time | Response Time |
 |--------------|----------------|---------------------|----------------|----------------|--------------|---------------|
-| p1           | 7              | 3                   | 10             | 7              | 0            | 0             |
-| p2           | 18             | 23                  | 41             | 18             | 0            | 0             |
-| p3           | 16             | 34                  | 50             | 16             | 0            | 0             |
-| p4           | 12             | 16                  | 28             | 12             | 0            | 0             |
-| p5           | 19             | 7                   | 29             | 22             | 5            | 0             |
+| p1           | 7              | 3                    | 10             | 7              | 0            | 0             |
+| p5           | 19             | 7                    | 29             | 22             | 3            | 3             |
+| p4           | 12             | 16                   | 41             | 25             | 13            | 13             |
+| p2           | 18             | 23                   | 59             | 36             | 18            | 18             |
+| p3           | 16             | 34                   | 75             | 41             | 25            | 25             |
 
 Round Robin Algorithm
 | Process Name | Time to process | Job Submission time | Completion Time | Turnaround Time | Waiting Time | Response Time |
