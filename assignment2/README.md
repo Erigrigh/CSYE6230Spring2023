@@ -8,14 +8,14 @@ First Come First Serve (FCFS) Algorithm:
 | p2           | 18             | 23                   | 59             | 36             | 18            | 18             |
 | p3           | 16             | 34                   | 75             | 41             | 25            | 25             |
 
-Round Robin Algorithm:  TQ = 3 
+Round Robin Algorithm:  TQ = 10 
 | Process Name | Time to process | Job Submission time | Completion Time | Turnaround Time | Waiting Time | Response Time |
 |--------------|----------------|---------------------|----------------|----------------|--------------|---------------|
-| p1           | 7              | 3                   | 22             | 19             | 12           | 0             |
-| p2           | 18             | 23                  | 47             | 24             | 6            | 0             |
-| p3           | 16             | 34                  | 50             | 16             | 0            | 14            |
-| p4           | 12             | 16                  | 37             | 21             | 5            | 0             |
-| p5           | 19             | 7                   | 51             | 44             | 25           | 0             |
+| p1           | 7              | 3                   | 10             | 7              | 0            | 0             |
+| p2           | 18             | 23                  | 69             | 46             | 28           | 28             |
+| p3           | 16             | 34                  | 75             | 41             | 25           | 25            |
+| p4           | 12             | 16                  | 52             | 36             | 24           | 24             |
+| p5           | 19             | 7                   | 39             | 32             | 13           | 13             |
 
 Shortest Job First Algorithm:
 | Process Name | Time to process | Job Submission time | Completion Time | Turnaround Time | Waiting Time | Response Time |
