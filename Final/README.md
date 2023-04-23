@@ -11,7 +11,7 @@ P4  |0642       |
 b. Yes
 
 
-Q2
+Q2   
 const express = require('express');
 const app = express();
 const port = 3000;
@@ -33,7 +33,7 @@ Video encoding is a compute-intensive task that involves compressing and convert
 Database Queries:
 Database queries can be complex and time-consuming, especially for large databases with multiple tables and complex queries. By using multithreading, the application can split the query processing into smaller sub-tasks that can be executed concurrently. For example, one thread can handle the query execution, while another thread can handle the data retrieval. By using multiple threads, the application can achieve faster query response times and better overall performance.
 
-Q4
+Q4   
 Tasks that require frequent context switching:  
 When multiple threads are running on a single processor, the processor needs to switch between threads frequently to allow each thread to make progress. This process is known as context switching and can be time-consuming. If a program has many threads that require frequent context switching, the overhead of context switching may actually slow down the program and reduce its overall performance. In such cases, a single-threaded program may perform better since it does not require context switching.
 
