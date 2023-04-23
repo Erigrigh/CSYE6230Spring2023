@@ -43,9 +43,7 @@ In some cases, a program's performance may be limited by the hardware resources 
 
 Q5   
 Short-term scheduling focuses on selecting a process to execute next, allows user to select processes from the loads and pool back into the memory, offers full control.
-
 Medium-term scheduling focuses on managing the degree of multiprogramming in the system, It only selects processes that is in a ready state of the execution, offers less control.
-
 Long-term scheduling focuses on deciding which processes to admit into the system, it helps to send the process back to the memory, reduces the level of multiprogramming.
 
 Q6 
