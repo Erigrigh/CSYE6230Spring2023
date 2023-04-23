@@ -1,7 +1,8 @@
 Q1
-a.   Need Matrix       ABCD	
+a.   Need Matrix     
+     ABCD	
 P0   0000
-P1    0750
+P1   0750
 P2   1002    
 P3   0020
 P4   0642    
