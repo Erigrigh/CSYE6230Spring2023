@@ -45,4 +45,7 @@ Q5.
 Short-term scheduling focuses on selecting a process to execute next, medium-term scheduling focuses on managing the degree of multiprogramming in the system, and long-term scheduling focuses on deciding which processes to admit into the system.
 
 Q6 
-The average turnaround time is 10.53
+The average turnaround time is 10.53.
+
+Q7 
+The code is in the Q7 file above.
