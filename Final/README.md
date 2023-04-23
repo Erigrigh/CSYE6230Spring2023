@@ -29,11 +29,11 @@ app.listen(port, () => {
 });
 
 Q3
-Image Processing:
-when we have a program that processes a large number of images. The image processing task can be broken down into multiple sub-tasks such as reading, resizing, filtering, and saving. If you process images sequentially, it can take a long time to complete the task. However, by using multithreading, you can divide the work into multiple threads and run them simultaneously, which can significantly reduce the processing time. For example, while one thread reads an image from the disk, another thread can resize an image, and a third thread can apply a filter to an image.
+Video Encoding:
+Video encoding is a compute-intensive task that involves compressing and converting digital video files into different formats. By using multithreading, the application can split the video encoding process into smaller sub-tasks that can be processed concurrently. For example, one thread can handle the encoding of the video frames, while another thread can handle the audio encoding. By using multiple threads, the application can achieve faster video encoding times and better overall performance.
 
-Web Crawler:
-when we are building a web crawler that needs to fetch data from multiple websites. Fetching data from a website can take a long time because of network latency, and the crawler has to wait for the response before moving on to the next website. However, by using multithreading, you can fetch data from multiple websites simultaneously, which can significantly reduce the time it takes to complete the task. For example, you can create multiple threads, each responsible for fetching data from a different website, and run them concurrently. This way, if one thread is waiting for a response, other threads can continue working, thus maximizing the utilization of system resources.
+Database Queries:
+Database queries can be complex and time-consuming, especially for large databases with multiple tables and complex queries. By using multithreading, the application can split the query processing into smaller sub-tasks that can be executed concurrently. For example, one thread can handle the query execution, while another thread can handle the data retrieval. By using multiple threads, the application can achieve faster query response times and better overall performance.
 
 Q4
 1. I/O-bound tasks: If an application is primarily I/O-bound, such as reading and writing files or communicating with a network, then multithreading may not provide significant performance gains. In fact, it may even cause a decrease in performance due to the overhead of context switching between threads.
