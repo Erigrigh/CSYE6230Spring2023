@@ -41,8 +41,12 @@ Q4
 2. Synchronization-heavy tasks: If an application requires a lot of synchronization between threads, such as managing shared resources or updating a common data structure, then multithreading may not provide significant performance gains. In fact, it may even cause a decrease in performance due to the overhead of synchronization mechanisms such as locks and semaphores.
 
 
-Q5. 
-Short-term scheduling focuses on selecting a process to execute next, medium-term scheduling focuses on managing the degree of multiprogramming in the system, and long-term scheduling focuses on deciding which processes to admit into the system.
+Q5   
+Short-term scheduling focuses on selecting a process to execute next, allows user to select processes from the loads and pool back into the memory, offers full control.
+
+Medium-term scheduling focuses on managing the degree of multiprogramming in the system, It only selects processes that is in a ready state of the execution, offers less control.
+
+Long-term scheduling focuses on deciding which processes to admit into the system, it helps to send the process back to the memory, reduces the level of multiprogramming.
 
 Q6 
 The average turnaround time is 10.53.
