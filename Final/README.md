@@ -10,8 +10,6 @@ P4  |0642       |
 
 b. Yes
 
-c. Yes
-
 
 Q2
 const express = require('express');
