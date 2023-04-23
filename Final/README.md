@@ -38,8 +38,7 @@ Tasks that require frequent context switching:
 When multiple threads are running on a single processor, the processor needs to switch between threads frequently to allow each thread to make progress. This process is known as context switching and can be time-consuming. If a program has many threads that require frequent context switching, the overhead of context switching may actually slow down the program and reduce its overall performance. In such cases, a single-threaded program may perform better since it does not require context switching.
 
 Tasks with limited hardware resources:   
-In some cases, a program's performance may be limited by the hardware resources available, such as the number of CPU cores or memory. If a program is designed to use more threads than there are available CPU cores, the operating system will need to perform time-sharing, which means each thread will have less CPU time and may not be able to make much progress. In such cases, a single-threaded program that uses the available hardware resources efficiently may perform better than a multithreaded program that cannot use the hardware effectively.
-
+The program's performance will be limited by the hardware resources available, such as the number of CPU cores or memory. If a program is designed to use more threads than there are available CPU cores, the operating system will need to perform time-sharing, which means each thread will have less CPU time and may not be able to make much progress. In such cases, a single-threaded program that uses the available hardware resources efficiently may perform better than a multithreaded program that cannot use the hardware effectively.
 
 Q5   
 Short-term scheduling focuses on selecting a process to execute next, allows user to select processes from the loads and pool back into the memory, offers full control.  
