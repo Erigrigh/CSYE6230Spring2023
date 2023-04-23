@@ -10,7 +10,8 @@ P4 |0642 |
 
 b. Yes
 
-Q2 const express = require('express'); const app = express(); const port = 3000;
+Q2   
+const express = require('express'); const app = express(); const port = 3000;
 
 app.get('/', (req, res) => { const name = req.query.name || 'Stranger'; const message = Hello ${name}; res.send(message); });
 
