@@ -28,7 +28,7 @@ app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);
 });
 
-Q3
+Q3  
 Video Encoding:
 Video encoding is a compute-intensive task that involves compressing and converting digital video files into different formats. By using multithreading, the application can split the video encoding process into smaller sub-tasks that can be processed concurrently. For example, one thread can handle the encoding of the video frames, while another thread can handle the audio encoding. By using multiple threads, the application can achieve faster video encoding times and better overall performance.
 
